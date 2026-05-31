@@ -1,3 +1,11 @@
+/* 
+===========================================================================================================
+ 	I have created stored procedure to load data in bronze layer and also to calculate load duration 
+    and also truncating table and also count the number of rows
+	In this stored procedure i have loaded data from two different sources From 'CRM', 'ERP'.
+===========================================================================================================
+*/
+
 -- Bulk insert the data in this sql file
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
